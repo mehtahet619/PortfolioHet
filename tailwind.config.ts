@@ -53,6 +53,17 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        sky: require("tailwindcss/colors").sky,
+        stone: require("tailwindcss/colors").stone,
+        neutral: require("tailwindcss/colors").neutral,
+        gray: require("tailwindcss/colors").gray,
+        slate: require("tailwindcss/colors").slate,
+        // Explicitly set deprecated colors to undefined to silence warnings
+        lightBlue: undefined,
+        warmGray: undefined,
+        trueGray: undefined,
+        coolGray: undefined,
+        blueGray: undefined,
       },
       borderRadius: {
         lg: "var(--radius)",
