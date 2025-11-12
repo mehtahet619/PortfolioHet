@@ -1,7 +1,6 @@
 import type { Config } from "tailwindcss"
-import colors from "tailwindcss/colors"
 
-const config: Config = {
+const config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -10,6 +9,7 @@ const config: Config = {
     "./src/**/*.{ts,tsx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
+  prefix: "",
   theme: {
     container: {
       center: true,
@@ -53,12 +53,6 @@ const config: Config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Updated Tailwind v3 color names
-        sky: colors.sky,
-        stone: colors.stone,
-        neutral: colors.neutral,
-        gray: colors.gray,
-        slate: colors.slate,
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -82,6 +76,6 @@ const config: Config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+} satisfies Config
 
 export default config

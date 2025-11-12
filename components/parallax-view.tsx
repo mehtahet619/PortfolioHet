@@ -27,7 +27,7 @@ export default function ParallaxView() {
   // Handle resume download
   const handleDownloadResume = () => {
     // Open Google Drive resume link in new tab
-    window.open("https://drive.google.com/file/d/1r0apoij6kKZgTzyvbKkziH7c_N02644q/view?usp=drivesdk", "_blank")
+    window.open("https://drive.google.com/file/d/1s6flwYoyVgdQRYTOyXaS_CHtxHYqewsR/view?usp=sharing", "_blank")
   }
 
   // Mouse parallax effect
@@ -167,48 +167,7 @@ export default function ParallaxView() {
                       </p>
                     </motion.div>
 
-                    {/* DOT 5G Hackathon */}
-                    <motion.div
-                      whileHover={{ y: -10, scale: 1.02 }}
-                      className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg border-l-4 border-purple-500"
-                    >
-                      <div className="flex items-center mb-4">
-                        <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center mr-4">
-                          <span className="text-2xl">🚀</span>
-                        </div>
-                        <div>
-                          <h4 className="text-lg font-bold text-purple-600 dark:text-purple-400">DOT 5G Hackathon</h4>
-                          <p className="text-sm text-gray-600 dark:text-gray-400">Finalist (Ongoing)</p>
-                        </div>
-                      </div>
-                      <p className="text-slate-700 dark:text-slate-300 text-sm">
-                        Currently competing as a finalist in the DOT 5G Hackathon, working on next-generation 5G
-                        applications and solutions.
-                      </p>
-                    </motion.div>
-
-                    {/* IIT Indore Hackathon */}
-                    <motion.div
-                      whileHover={{ y: -10, scale: 1.02 }}
-                      className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg border-l-4 border-orange-500"
-                    >
-                      <div className="flex items-center mb-4">
-                        <div className="w-12 h-12 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center mr-4">
-                          <span className="text-2xl">🥉</span>
-                        </div>
-                        <div>
-                          <h4 className="text-lg font-bold text-orange-600 dark:text-orange-400">
-                            IIT Indore Hackathon
-                          </h4>
-                          <p className="text-sm text-gray-600 dark:text-gray-400">4th Position</p>
-                        </div>
-                      </div>
-                      <p className="text-slate-700 dark:text-slate-300 text-sm">
-                        Secured 4th position in the prestigious IIT Indore Hackathon, competing against top teams from
-                        across India.
-                      </p>
-                    </motion.div>
-
+                    
                     {/* ISRO Robotics Challenge */}
                     <motion.div
                       whileHover={{ y: -10, scale: 1.02 }}
@@ -226,6 +185,31 @@ export default function ParallaxView() {
                       <p className="text-slate-700 dark:text-slate-300 text-sm">
                         Shortlisted in the top 170 teams among 1,600 colleges for the ISRO IRoC-U challenge, creating an
                         Autonomous Navigation System for Martian Terrain.
+                      </p>
+                    </motion.div>
+
+
+
+                     <motion.div
+                      whileHover={{ y: -10, scale: 1.02 }}
+                      className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg border-l-4 border-purple-500"
+                    >
+                      <div className="flex items-center mb-4">
+                        <div className="w-12 h-12 bg-red-100 dark:bg-red-900/30 rounded-full flex items-center justify-center mr-4">
+                          <span className="text-2xl">🚀</span>
+                        </div>
+                        <div>
+                          <h4 className="text-lg font-bold text-red-600 dark:text-red-400">NUV ACM 2025</h4>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">Winner  - First Prize</p>
+                        </div>
+                      </div>
+                      <p className="text-slate-700 dark:text-slate-300 text-sm">
+                        Real-time Campus Monitoring & Threat Prediction and Reduction System
+                        Predicts assaults, thefts, fires, intrusions, before they happen.
+Maps campus hotspots where risks are highest.
+
+Human-in-the-loop Agentic AI → real-time SMS + calls to police, ambulance, principal instantly.
+
                       </p>
                     </motion.div>
                   </div>
@@ -576,123 +560,6 @@ export default function ParallaxView() {
                   <p className="text-sm text-slate-500 dark:text-slate-400 italic">
                     "Automate Your Sales. Accelerate Your Growth."
                   </p>
-                </motion.div>
-              </div>
-            </motion.div>
-          </div>
-        </section>
-
-        {/* Certifications Section */}
-        <section className="py-20 px-4 md:px-8 bg-white dark:bg-slate-800">
-          <div className="max-w-5xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true, margin: "-100px" }}
-            >
-              <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Certifications</h2>
-              <div className="grid md:grid-cols-2 gap-8">
-                {/* Cybersecurity */}
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="bg-slate-50 dark:bg-slate-700 p-8 rounded-lg shadow-lg border-l-4 border-red-500"
-                >
-                  <h3 className="text-xl font-bold text-red-600 dark:text-red-400 mb-6">🔐 Cybersecurity</h3>
-                  <ul className="space-y-3">
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Certified Ethical Hacker (CEH)</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by Cisco</p>
-                    </li>
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">
-                        ISC2 Certified in Cybersecurity (CC)
-                      </p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by ISC2</p>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                {/* AI & Machine Learning */}
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="bg-slate-50 dark:bg-slate-700 p-8 rounded-lg shadow-lg border-l-4 border-purple-500"
-                >
-                  <h3 className="text-xl font-bold text-purple-600 dark:text-purple-400 mb-6">
-                    🤖 AI & Machine Learning
-                  </h3>
-                  <ul className="space-y-3">
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">AI Security and Governance</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by Securiti</p>
-                    </li>
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Principles of Generative AI</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by Infosys Springboard</p>
-                    </li>
-                    <li>
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">
-                        Build Real World AI Applications with Gemini and Imagen
-                      </p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by Google</p>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                {/* Cloud & DevOps */}
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="bg-slate-50 dark:bg-slate-700 p-8 rounded-lg shadow-lg border-l-4 border-orange-500"
-                >
-                  <h3 className="text-xl font-bold text-orange-600 dark:text-orange-400 mb-6">☁️ Cloud & DevOps</h3>
-                  <ul className="space-y-3">
-                    <li>
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Introduction to DevOps</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by IBM</p>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                {/* Programming & Development */}
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="bg-slate-50 dark:bg-slate-700 p-8 rounded-lg shadow-lg border-l-4 border-blue-500"
-                >
-                  <h3 className="text-xl font-bold text-blue-600 dark:text-blue-400 mb-6">
-                    💻 Programming & Development
-                  </h3>
-                  <ul className="space-y-3">
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Core Java Specialization</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by LearnQuest</p>
-                    </li>
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Introduction to TCP/IP</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by Yonsei</p>
-                    </li>
-                    <li>
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Linux / SQL / ARCore</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by Coursera</p>
-                    </li>
-                  </ul>
-                </motion.div>
-
-                {/* IoT & Other */}
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="bg-slate-50 dark:bg-slate-700 p-8 rounded-lg shadow-lg border-l-4 border-green-500"
-                >
-                  <h3 className="text-xl font-bold text-green-600 dark:text-green-400 mb-6">📚 Other Certifications</h3>
-                  <ul className="space-y-3">
-                    <li className="border-b border-gray-300 dark:border-gray-600 pb-3">
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">Introduction to IoT</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by NPTEL</p>
-                    </li>
-                    <li>
-                      <p className="font-semibold text-slate-700 dark:text-slate-200">SEO II</p>
-                      <p className="text-sm text-slate-500 dark:text-slate-400">by HubSpot Academy</p>
-                    </li>
-                  </ul>
                 </motion.div>
               </div>
             </motion.div>

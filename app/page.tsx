@@ -19,10 +19,7 @@ export default function Home() {
   useEffect(() => {
     // Check localStorage for saved view preference
     const savedView = localStorage.getItem("portfolioView")
-    if (
-      savedView &&
-      (savedView === "terminal" || savedView === "parallax" || savedView === "three" || savedView === "solar")
-    ) {
+    if (savedView && (savedView === "terminal" || savedView === "parallax")) {
       setSelectedView(savedView)
     }
     setIsLoading(false)

@@ -1,11 +1,19 @@
 import type React from "react"
+import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
-// ... existing metadata ...
+export const metadata: Metadata = {
+  title: "Het Mehta | Portfolio",
+  description: "Full Stack Developer, AI/ML Engineer, and Cybersecurity Enthusiast",
+  keywords: ["portfolio", "developer", "full stack", "AI", "ML", "cybersecurity", "Het Mehta"],
+  authors: [{ name: "Het Mehta" }],
+  creator: "Het Mehta",
+    generator: 'v0.app'
+}
 
 export default function RootLayout({
   children,
@@ -22,7 +30,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-export const metadata = {
-      generator: 'v0.app'
-    };

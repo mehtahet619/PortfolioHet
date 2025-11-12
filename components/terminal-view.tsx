@@ -32,7 +32,6 @@ export default function TerminalView() {
     "contact",
     "clear",
     "resume",
-    "certifications", // added certifications command
   ]
 
   // Initial welcome message
@@ -193,9 +192,6 @@ export default function TerminalView() {
                 <span className="text-green-400">startup</span> - View my startup ventures
               </li>
               <li>
-                <span className="text-green-400">certifications</span> - View my certifications
-              </li>
-              <li>
                 <span className="text-green-400">contact</span> - Get my contact information
               </li>
               <li>
@@ -250,13 +246,7 @@ export default function TerminalView() {
                       challenges.
                     </p>
                   </div>
-                  <div>
-                    <p className="font-bold text-blue-400">DOT 5G Hackathon - Finalist (Ongoing) 🚀</p>
-                    <p>
-                      Currently competing as a finalist in the DOT 5G Hackathon, working on next-generation 5G
-                      applications and solutions.
-                    </p>
-                  </div>
+                 
                   <div>
                     <p className="font-bold text-blue-400">IIT Indore Hackathon - 4th Position 🥉</p>
                     <p>
@@ -270,6 +260,12 @@ export default function TerminalView() {
                     <p>
                       Shortlisted in the top 170 teams among 1,600 colleges, for the ISRO IRoC-U challenge, creating an
                       Autonomous Navigation System for Martian Terrain.
+                    </p>
+                  </div>
+                  <div>
+                    <p className="font-bold text-blue-400">NUV ACM - 2025 -Winner </p>
+                    <p>
+                      Real-time Campus Monitoring & Threat Prediction and Reduction System Predicts assaults, thefts, fires, intrusions, before they happen. Maps campus hotspots where risks are highest. Human-in-the-loop Agentic AI → real-time SMS + calls to police, ambulance, principal instantly.
                     </p>
                   </div>
                 </div>
@@ -615,89 +611,6 @@ export default function TerminalView() {
                 <p className="mt-2">
                   <span className="text-green-400">Status:</span> Early development phase, seeking early access users
                 </p>
-              </div>
-            </div>
-          </div>
-        )
-        break
-
-      case "certifications":
-        output = (
-          <div>
-            <p className="font-bold text-yellow-400 mb-2">My Certifications:</p>
-            <div className="ml-4 space-y-6">
-              <div>
-                <p className="font-bold text-green-400">🔐 Cybersecurity Certifications</p>
-                <div className="ml-4 space-y-2">
-                  <div>
-                    <p className="text-blue-400">Certified Ethical Hacker (CEH)</p>
-                    <p className="text-gray-400 text-sm">by Cisco</p>
-                  </div>
-                  <div>
-                    <p className="text-blue-400">ISC2 Certified in Cybersecurity (CC)</p>
-                    <p className="text-gray-400 text-sm">by ISC2</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <p className="font-bold text-green-400">🤖 AI & Machine Learning Certifications</p>
-                <div className="ml-4 space-y-2">
-                  <div>
-                    <p className="text-blue-400">AI Security and Governance</p>
-                    <p className="text-gray-400 text-sm">by Securiti</p>
-                  </div>
-                  <div>
-                    <p className="text-blue-400">Principles of Generative AI</p>
-                    <p className="text-gray-400 text-sm">by Infosys Springboard</p>
-                  </div>
-                  <div>
-                    <p className="text-blue-400">Build Real World AI Applications with Gemini and Imagen</p>
-                    <p className="text-gray-400 text-sm">by Google</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <p className="font-bold text-green-400">☁️ Cloud & DevOps Certifications</p>
-                <div className="ml-4 space-y-2">
-                  <div>
-                    <p className="text-blue-400">Introduction to DevOps</p>
-                    <p className="text-gray-400 text-sm">by IBM</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <p className="font-bold text-green-400">💻 Programming & Development Certifications</p>
-                <div className="ml-4 space-y-2">
-                  <div>
-                    <p className="text-blue-400">Core Java Specialization</p>
-                    <p className="text-gray-400 text-sm">by LearnQuest</p>
-                  </div>
-                  <div>
-                    <p className="text-blue-400">Introduction to TCP/IP</p>
-                    <p className="text-gray-400 text-sm">by Yonsei</p>
-                  </div>
-                  <div>
-                    <p className="text-blue-400">Linux / SQL / ARCore</p>
-                    <p className="text-gray-400 text-sm">by Coursera</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <p className="font-bold text-green-400">📚 Other Certifications</p>
-                <div className="ml-4 space-y-2">
-                  <div>
-                    <p className="text-blue-400">Introduction to IoT</p>
-                    <p className="text-gray-400 text-sm">by NPTEL</p>
-                  </div>
-                  <div>
-                    <p className="text-blue-400">SEO II</p>
-                    <p className="text-gray-400 text-sm">by HubSpot Academy</p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
