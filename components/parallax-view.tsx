@@ -147,6 +147,29 @@ export default function ParallaxView() {
                       </p>
                     </motion.div>
 
+                    
+                    {/*Intuitive.ai Hackathon*/}
+                     <motion.div
+                      whileHover={{ y: -10, scale: 1.02 }}
+                      className="bg-white dark:bg-slate-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-500"
+                    >
+                      <div className="flex items-center mb-4">
+                        <div className="w-12 h-12 bg-yellow-100 dark:bg-yellow-900/30 rounded-full flex items-center justify-center mr-4">
+                          <span className="text-2xl">🏆</span>
+                        </div>
+                        <div>
+                          <h4 className="text-lg font-bold text-yellow-600 dark:text-yellow-400">
+                            InnovAItion Hackathon - by Intuitive.ai
+                          </h4>
+                          <p className="text-sm text-gray-600 dark:text-gray-400">First Runners Up</p>
+                        </div>
+                      </div>
+                      <p className="text-slate-700 dark:text-slate-300 text-sm">
+                        Won the Intuitive.ai Hackathon for the Indian Disaster Management System project, focusing on saving
+                        lives using IoT sensors and AI.
+                      </p>
+                    </motion.div>
+
                     {/* HSBC Hackathon */}
                     <motion.div
                       whileHover={{ y: -10, scale: 1.02 }}
@@ -167,6 +190,7 @@ export default function ParallaxView() {
                       </p>
                     </motion.div>
 
+                    
                     
                     {/* ISRO Robotics Challenge */}
                     <motion.div
